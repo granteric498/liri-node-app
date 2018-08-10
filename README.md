@@ -7,14 +7,14 @@ In node, you can input the following commands which will prompt the following in
 - node liri.js my-tweets
   - This will show my last 20 tweets and when they were created in your terminal/bash window.
   - NOTE: The tweets come from an alias account to avoid providing personal information.
-- node liri.js spotify-this-song '<song name here>'
+- node liri.js spotify-this-song 'song name here'
   - This will show the following information about the song in your terminal/bash window:
     - Song name
     - Artist(s)
     - Album
     - Song's Spotify URL
   - If no song is provided, the default song is "The Sign" by Ace of Base.
-- node liri.js movie-this '<movie name here>'
+- node liri.js movie-this 'movie name here'
   - This will show the following information about the movie in your terminal/bash window:
     - Title of the movie.
     - Year the movie came out.
